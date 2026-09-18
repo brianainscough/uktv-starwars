@@ -3,5 +3,5 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [preact()],
-  base: 'https://github.com/brianainscough/uktv-starwars',
+  base: '/uktv-starwars/',
 })
