@@ -48,7 +48,7 @@
 
 .body {
   display: grid;
-  grid-template-columns: 220px minmax(0, 1fr) 320px;
+  grid-template-columns: 220px minmax(0, 2fr) minmax(360px, 1fr);
   height: calc(100vh - 138px);
 }
 
@@ -74,7 +74,7 @@
   border-radius: 12px;
   color: #374151;
   background: transparent;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   text-align: left;
   cursor: pointer;
@@ -130,14 +130,14 @@
 .detailPanel h2 {
   margin: 6px 0 0;
   color: #111827;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 1.05;
   font-weight: 800;
 }
 
 .recordCount {
   color: #475569;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 800;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -173,7 +173,7 @@
   outline: 0;
   color: #111827;
   background: transparent;
-  font-size: 16px;
+  font-size: 19px;
 }
 
 .search input::placeholder {
@@ -182,7 +182,7 @@
 
 .search kbd {
   color: #64748b;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -221,7 +221,7 @@
   display: block;
   overflow: hidden;
   color: #0f172a;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 700;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -232,7 +232,7 @@
   overflow: hidden;
   margin-top: 6px;
   color: #64748b;
-  font-size: 11px;
+  font-size: 14px;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
@@ -317,13 +317,13 @@
 }
 
 .detailPanel h2 {
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .detailTop p {
   margin: 5px 0 0;
   color: #64748b;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 800;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -344,17 +344,17 @@
 
 .spec span {
   color: #64748b;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 
 .spec strong {
-  max-width: 170px;
+  max-width: 230px;
   overflow: hidden;
   color: #111827;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 700;
   text-align: right;
   text-overflow: ellipsis;
@@ -364,7 +364,7 @@
 .detailFooter {
   margin-top: 24px;
   color: #64748b;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 800;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -379,7 +379,7 @@
 .emptyDetail {
   margin-top: 72px;
   color: #64748b;
-  font-size: 13px;
+  font-size: 17px;
   line-height: 1.8;
 }
 
@@ -392,7 +392,7 @@
   border-top: 1px solid rgba(28, 33, 42, 0.08);
   background: rgba(255, 255, 255, 0.35);
   color: #475569;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 800;
   letter-spacing: 0.12em;
   text-transform: uppercase;
